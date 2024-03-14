@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1
+        let minhaIdade = 33
+        document.write(`ex: 1 </br> Minha idade é ${minhaIdade} anos.</br></br>`);
+
+        // 2
+        let valor1 = 15
+        let valor2 = 1
+        let valorSoma = valor1 + valor2
+        document.write(`ex: 2 </br> A resultado da soma de x e y é z =${valorSoma}</br> </br> `);
+
+        // 3 
+        let valorCompra = 150
+        let valorParc = 2
+        let valorDaParcela = 75
+        document.write(`ex: 3 </br> O valor total da compra foi R$ ${valorCompra},00 </br> Forma de pagamento: ${valorParc}x de R$${valorDaParcela}</br> </br>`);
+
+        //4
+        let minutos = 120
+        let segundos = minutos * 60
+        document.write(`ex: 4 </br> ${minutos} minutos equivale à ${segundos} segundos!</br> </br>`);
+
+        //5
+        let nomeAluno = "Sheila"
+        let nota1 = 10
+        let nota2 = 8
+        let nota3 = 9
+        let media = (nota1 + nota2 + nota3) / 3
+        document.write(`ex: 5 </br> O aluno ${nomeAluno} ficou com média ${media}</br> </br>`);
+
+        //6
+        let a = 10
+        let b = 20
+        document.write(`ex: 6 </br> Valor em A: é ${a}</br>Valor em B: ${b}. </br></br> Na troca fica:</br></br>  `);
+
+        let aux = a
+        a = b
+        b = aux
+        document.write(`Valor em A: é ${a}</br>Valor em B: ${b}. </br></br>`);
+
+        //7
+        let votosBrancos = 5
+        let votosNulos = 2
+        let votosValidos = 300
+        let totalEleitores = votosBrancos + votosNulos + votosValidos
+        document.write(`ex: 7 </br> Total de eleitores é: ${totalEleitores}</br></br>`);
+
+        let percentualBrancos = (votosBrancos / totalEleitores) * 100;
+        let percentualNulos = (votosNulos / totalEleitores) * 100;
+        let percentualValidos = (votosValidos / totalEleitores) * 100;
+        document.write(`Sendo assim as porcentagens:</br> Brancos: ${percentualBrancos.toFixed(2)}%</br>Nulos: ${percentualNulos.toFixed(2)}%</br>Válidos: ${percentualValidos.toFixed(2)}%</br></br></br>`);
+
+        // 8
+        // let primeiroValor = prompt("Digite o primeiro valor:");
+        // let segundoValor = prompt("Digite o segundo valor:");
+
+
+        // if (primeiroValor === segundoValor) {
+        //     document.write("ex: 8 Números iguais");
+        // } else if (primeiroValor > segundoValor) {
+
+        //     document.write("ex: 8 Primeiro é maior");
+        // } else {
+        //     document.write("ex: 8 Segundo é maior");
+        // }
+
+
+        //9
+        // let macas = prompt("Digite o número de maçãs compradas: ")
+
+
+        // let total
+
+        // if (macas < 12) {
+
+        //     total = macas * 0.30;
+
+        //     document.write(`ex: 9 O valor total da compra é R$ ${total.toFixed(2)}`);
+        // } else {
+
+        //     total = macas * 0.25;
+
+        //     document.write(`ex: 9 O valor total da compra é R$ ${total.toFixed(2)}`);
+        // }
+
+        //10
+        // let nome = prompt('Qual seu nome?')
+        // let idade = prompt('qual sua idade?')
+
+
+        // document.write(`Nome: ${nome}, Idade: ${idade} anos, nasceu em ${2024 - idades}.`)
+
+        //11
+        // let numero = prompt("Digite um número inteiro positivo:");
+        // numero = parseInt(numero);
+
+        // if (isNaN(numero)) {
+        //     alert("Por favor, insira um número válido.");
+        // } else if (numero % 2 === 0) {
+        //     alert("Número é par!");
+        // } else {
+        //     alert("Número é ímpar!");
+        // }
+
+        //12
+        let anoNasc = 1990
+        let anoAtual = 2024
+        let votar = anoAtual - anoNasc
+
+
+        if (votar < 18) {
+            console.log('nao pode votar')
+        } else {
+            console.log('pode votar')
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
